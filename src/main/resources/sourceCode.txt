@@ -1,0 +1,13 @@
+let fibonacci = function(nums) {
+    let a = 0;
+    let b = 1;
+    while (nums > 0) {
+        print(a);
+        let c = a + b;
+        let a = b;
+        let b = c;
+        nums--;
+    }
+}
+
+fibonacci(5);
